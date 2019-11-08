@@ -11,11 +11,9 @@ public class Animal {
     private String color;
     private Integer legs;
     private Boolean mamal;
-    private static String Name;
+    private String Name;
 
-    public static String getName() { return Name; }
 
-    public static void setName(String name) { Name = name; }
 
     public String getColor() { return color; }
 
@@ -28,4 +26,12 @@ public class Animal {
     public Boolean getMamal() { return mamal; }
 
     public void setMamal(Boolean mamal) { this.mamal = mamal; }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
 }

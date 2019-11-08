@@ -4,8 +4,8 @@ import com.company.Animal;
     public class Cat extends Animal {
 
 
-        public Cat(String color, Integer legs, Boolean mamal) {
-            super(color, legs, mamal);
+        public Cat(String color, Integer legs, Boolean mamal, String Name) {
+            super(color, legs, mamal, Name);
         }
 
         @Override
@@ -22,4 +22,9 @@ import com.company.Animal;
     public String getColor() {
         return "Brown";
     }
-}
+
+        @Override
+        public String getName() {
+            return super.getName();
+        }
+    }
